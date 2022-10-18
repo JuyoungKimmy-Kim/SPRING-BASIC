@@ -10,9 +10,10 @@
 		</layout>
 	</appender>
 	
+	<!--  TRACE (ALL) > DEBUG > INFO > WARNING > ERROR > FATAL  -->
 	<!-- Application Loggers -->
 	<logger name="com.mycom.myapp">
-		<level value="info" />
+		<level value="debug" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
