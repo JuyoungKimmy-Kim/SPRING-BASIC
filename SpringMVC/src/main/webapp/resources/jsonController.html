@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Send JSON Test</h1>
+	<hr>
+	<button id="sendEmp">Emp 보내기</button>
+	<button id="sendEmpList">Emp List 보내기</button>
+
+	<h1>Receive JSON Test</h1>
+	<hr>
+	<button id="receiveEmp">Emp 받기</button>
+	<button id="receiveEmpList">Emp List 받기</button>
+	
+	<h1>Receive LocalDateTime Test</h1>
+	<hr>
+	<button id="receiveLocalDateTime">LocalDateTime 받기</button>
+
+	<script>
+        // javascript object
+        var emp = {
+                employeeId: 1500,
+                firstName: 'gildong',
+                lastName: 'hong',
+                email: 'hong@gildong.com',
+                hireDate: '2022-10-19',
+        }
+        
+        var empList = [
+        {
+                employeeId: 1500,
+                firstName: 'gildong1',
+                lastName: 'hong',
+                email: 'hong1@gildong.com',
+                hireDate: '2022-10-19',
+        },
+        {
+	            employeeId: 1300,
+	            firstName: 'gildong2',
+	            lastName: 'hong',
+	            email: 'hong2@gildong.com',
+	            hireDate: '2022-10-19',
+ 	   },
+	    {
+		        employeeId: 1400,
+		        firstName: 'gildong3',
+		        lastName: 'hong',
+		        email: 'hong3@gildong.com',
+		        hireDate: '2022-10-19',
+		},    
+        ]
+
+        window.onload = function() {
+            document.querySelector("#sendEmp").onclick = async function() {
+                // fetch 를 이용해서 emp 객체를 json 으로 BackEnd 에 post 전송
+                let fetchOptions = {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(emp),
+                }
+
+                try {
+                    let response = await fetch('/myapp/emp', fetchOptions);
+                    let data = await response.json();
+                    console.log(data); 	//response가 없으므로 오류
+                } catch(error) {
+                    console.log(error);
+                }
+            }
+            
+            document.querySelector ("#sendEmpList").onclick=async function () {
+            	let fetchOptions = {
+            			method: 'POST',
+            			headers: {
+            				'Content-Type' : 'application/json'
+            			},
+            			body: JSON.stringify(empList)
+            	}
+            	
+                try {
+                    let response = await fetch('/myapp/empList', fetchOptions);
+                    let data = await response.json();
+                    console.log(data);	//response가 없으므로 오류
+                } catch(error) {
+                    console.log(error);
+                }
+            }
+            
+            document.querySelector("#receiveEmp").onclick = async function() {
+			//fetch를 이용해 emp 데이터를 json으로 Backend로부터 받는다
+			//json으로 response를 받는다
+                try {
+                    let response = await fetch('/myapp/empDetail/12345');
+                    let data = await response.json();
+                    console.log(data);	//결과 확인
+                } catch(error) {
+                    console.log(error);
+                }
+            }
+            
+
+            document.querySelector("#receiveEmpList").onclick = async function() {
+                // fetch 를 이용해서 emp 데이트를 json 으로 BackEnd 로부터 받는다.
+                // json 으로 response 를 받는다.
+                try {
+                    let response = await fetch('/myapp/empList');
+                    let data = await response.json();
+                    console.log(data); // 결과 확인
+                } catch(error) {
+                    console.log(error);
+                }
+            }
+            
+            document.querySelector("#receiveLocalDateTime").onclick = async function() {
+                // fetch 를 이용해서 emp 데이트를 json 으로 BackEnd 로부터 받는다.
+                // json 으로 response 를 받는다.
+                try {
+                    let response = await fetch('/myapp/localDateTime');
+                    let data = await response.json();
+                    console.log(data); // 결과 확인
+                } catch(error) {
+                    console.log(error);
+                }
+            }
+            
+        
+        }
+    </script>
+</body>
+</html>

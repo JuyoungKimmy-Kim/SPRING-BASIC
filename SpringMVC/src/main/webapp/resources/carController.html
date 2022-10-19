@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Send JSON Test</h1>
+	<hr>
+	<button id="sendCar">Car 보내기</button>
+	<button id="sendCarList">Car List 보내기</button>
+
+	<h1>Receive JSON Test</h1>
+	<hr>
+	<button id="receiveCar">Car 받기</button>
+	<button id="receiveCarList">Car List 받기</button>
+	
+	<script>
+	
+		var car = {
+			name: 'volvo',
+			price: 100,
+			ownerName:'Juyoung',
+		}
+		
+		
+		var carList = [
+		{
+				name: 'volvo',
+				price: 100,
+				ownerName:'Juyoung',
+		},
+		{
+				name: 'kia',
+				price: 200,
+				ownerName:'Juyoung',
+		},
+		{
+				name: 'hyndai',
+				price: 300,
+				ownerName:'Juyoung',
+		},
+		{
+				name: 'accord',
+				price: 400,
+				ownerName:'Juyoung',
+		}]
+		
+		
+		window.onload =function () {
+			document.querySelector ("#sendCar").onclick = async function () {
+				let fetchOptions = {
+						method: 'POST',
+						headers : {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(car),
+				}
+				
+				try {
+					let response = await fetch ('/myapp/car', fetchOptions);
+					let data = await response.json();
+					console.log(data);
+				} catch (error) {
+					console.log(error);
+				}
+			}
+			
+			document.querySelector ("#sendCarList").onclick=async function () {
+				let fetchOptions = {
+						method:'POST',
+						headers : {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(carList);
+				}
+				
+				try {
+					let response = await fetch ('myapp/carList', fetchOptions);
+					let data=await response.json();
+					console.log(data);
+				} catch (error) {
+					console.error(error);
+				}
+			}
+			
+			document.querySelector ("#receiveCar").onclick=async function () {
+				try {
+					let response=await fetch ('/myapp/carDetail/12345');
+					let date=await response.json();
+					console.log(date);
+				}catch (error) {
+					console.log(error);
+				}
+			}
+			
+			document.querySelector ("#recieveCarList").onclick=async function () {
+				try {
+					let response=await fetch ('myapp/carList');
+					let data=await response.json();
+					console.log(data);
+				} catch (error) {
+					console.log(error);
+				}
+			}
+			
+			
+		}
+	
+	</script>
+	
+</body>
+</html>
