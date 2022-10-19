@@ -7,6 +7,19 @@ public class EmpDto {
 	private String email;
 	private String hireDate;
 	
+	public EmpDto() {
+		super();
+	}
+	
+	public EmpDto(int employeeId, String firstName, String lastName, String email, String hireDate) {
+		super();
+		this.employeeId = employeeId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.hireDate = hireDate;
+	}
+	
 	public int getEmployeeId() {
 		return employeeId;
 	}
@@ -38,22 +51,10 @@ public class EmpDto {
 		this.hireDate = hireDate;
 	}
 	
-	public EmpDto() {}
-	
-	public EmpDto(int employeeId, String firstName, String lastName, String email, String hireDate) {
-		super();
-		this.employeeId = employeeId;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.email = email;
-		this.hireDate = hireDate;
-	}
-	
 	@Override
 	public String toString() {
 		return "EmpDto [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
 				+ email + ", hireDate=" + hireDate + "]";
 	}
-	
 	
 }
