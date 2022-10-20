@@ -42,7 +42,7 @@ public class DBController {
 	
 	@PostMapping(value="/empInsert")
 	@ResponseBody
-	public int empInsert(EmpDto dto) {  // Frontend에서 json으로 데이터가 넘어오지 않는다.
+	public int empInsert(EmpDto dto) {  
 		System.out.println(dto);
 		int ret = service.empInsert(dto);
 		return ret;
@@ -50,7 +50,7 @@ public class DBController {
 	
 	@PostMapping(value="/empUpdate")
 	@ResponseBody
-	public int empUpdate(EmpDto dto) {  // Frontend에서 json으로 데이터가 넘어오지 않는다.
+	public int empUpdate(EmpDto dto) { 
 		System.out.println(dto);
 		int ret = service.empUpdate(dto);
 		return ret;

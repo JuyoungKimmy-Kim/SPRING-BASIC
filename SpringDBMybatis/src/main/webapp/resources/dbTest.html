@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> MyBatis Test (using JSON) </h1>
+	
+	<button id="btnEmpDetail">Emp 상세</button>
+	<button id="btnEmpList">Emp 목록</button>	
+	<br>	
+	<button id="btnEmpInsert">Emp 등록</button>
+	<button id="btnEmpUpdate">Emp 수정</button>
+	<button id="btnEmpDelete">Emp 삭제</button>
+	
+	<script>
+		window.onload = function () {
+			document.querySelector("#btnEmpDetail").addEventListener("click", async function () {
+				try {					
+					let response = await fetch("/mybatis/empDetail/1501");
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+			
+			document.querySelector("#btnEmpList").addEventListener("click", async function () {
+				try {					
+					let response = await fetch("/mybatis/empList");
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+			
+			// java script 객체
+			var empInsertData = {
+				employeeId: 1600,
+				firstName: "길동",
+				lastName: "유",
+				email: "you@gildong.com",
+				hireDate: "2022-10-20",
+			}
+			
+			document.querySelector("#btnEmpInsert").addEventListener("click", async function () {
+				let urlParams = new URLSearchParams(empInsertData);
+				
+				console.log(urlParams);
+				
+				let fetchOptions = {
+						method: "POST",
+						body: urlParams,
+				}
+				
+				try {
+					let response = await fetch("/mybatis/empInsert", fetchOptions);
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+			
+			// 수정
+			// java script 객체
+			var empUpdateData = {
+				employeeId: 1600,
+				firstName: "길동",
+				lastName: "최",
+				email: "choi@gildong.com",
+				hireDate: "2022-10-30",
+			}
+			
+			document.querySelector("#btnEmpUpdate").addEventListener("click", async function () {
+				let urlParams = new URLSearchParams(empUpdateData);
+				
+				console.log(urlParams);
+				
+				let fetchOptions = {
+						method: "POST",
+						body: urlParams,
+				}
+				
+				try {
+					let response = await fetch("/mybatis/empUpdate", fetchOptions);
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+
+			// 삭제
+			document.querySelector("#btnEmpDelete").addEventListener("click", async function () {
+				let urlParams = new URLSearchParams({
+					employeeId: 1600,
+				})
+				
+				let fetchOptions = {
+						method: "POST",
+						body: urlParams,
+				}
+				
+				try {
+					let response = await fetch("/mybatis/empDelete", fetchOptions);
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+			
+		}
+	</script>
+</body>
+</html>
