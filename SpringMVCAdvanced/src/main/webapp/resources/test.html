@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Test</h1>
+	<button id="btnException">Controller 예외 발생 async 요청</button>
+	<button id="studentInsert">Student 등록</button>
+
+
+	<script>
+		window.onload=function () {
+			document.querySelector("#btnException").onclick= async function () {
+				try {
+					let response = await fetch ("/myadv/exception");
+					let data=await response.json();
+					
+					if (data.result=="ajax_exception") {
+						alert ("서버에 문제가 있습니다.");
+					}
+					console.log(data);
+				} catch (error) {
+					console.error(error);
+				}
+			}
+			
+			
+			document.querySelector("#studentInsert").addEventListener("click", async function () {
+
+				let fetchOptions = {
+						method: "POST",
+						headers : {
+							'Content-Type' : 'application/json'
+						},
+						body: JSON.stringify( {
+							studentNm:'김주영',
+							email: "kimmykim.jy@gmail.com",
+							phone: "010-4014-6285",
+						})
+				}
+				
+				try {
+					let response = await fetch("/myadv/students", fetchOptions);
+					let data = await response.json();
+					
+					if (data.result=="ajax_exception") {
+						alert("서버에 문제가 있습니다");
+					}
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			});
+			
+//  			var studentInsertData = {
+// 					studentNm:'김주영',
+// 					email: "kimmykim.jy@gmail.com",
+// 					phone: "010-4014-6285",
+// 			}
+			
+// 			document.querySelector("#studentInsert").addEventListener("click", async function () {
+// 				let urlParams = new URLSearchParams(studentInsertData);
+				
+// 				console.log(urlParams);
+				
+// 				let fetchOptions = {
+// 						method: "POST",
+// 						body: urlParams,
+// 				}
+				
+// 				try {
+// 					let response = await fetch("/myadv/students", fetchOptions);
+// 					let data = await response.json();
+// 					console.log(data);		
+					
+// 				} catch (error){
+// 					console.log(error);
+// 				}
+// 			}); 
+		}
+	
+	</script>
+
+</body>
+</html>

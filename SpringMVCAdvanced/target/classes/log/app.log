@@ -1,0 +1,597 @@
+[INFO] 2022-10-21 14:10:42,868 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:10:43,159 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 288 ms
+[INFO] 2022-10-21 14:10:43,249 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:10:44,459 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1210 ms
+[INFO] 2022-10-21 14:32:26,092 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:32:26,384 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 288 ms
+[INFO] 2022-10-21 14:32:26,469 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:32:27,631 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1162 ms
+[INFO] 2022-10-21 14:36:24,205 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:36:24,502 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 294 ms
+[INFO] 2022-10-21 14:36:24,594 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:36:25,749 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1155 ms
+[WARN] 2022-10-21 14:37:11,610 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/user
+[WARN] 2022-10-21 14:37:17,092 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:18,884 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:18,974 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:19,137 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:19,343 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:19,667 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:19,985 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:20,249 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:20,821 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:20,985 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,147 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,307 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,464 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,625 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,793 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[WARN] 2022-10-21 14:37:21,960 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/logouff
+[INFO] 2022-10-21 14:37:35,908 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:37:36,205 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 294 ms
+[INFO] 2022-10-21 14:37:36,284 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:37:37,400 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1115 ms
+[INFO] 2022-10-21 14:44:57,663 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:44:57,965 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 299 ms
+[INFO] 2022-10-21 14:44:58,049 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:44:59,205 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1156 ms
+[INFO] 2022-10-21 14:45:11,596 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:45:11,840 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 242 ms
+[INFO] 2022-10-21 14:45:11,918 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:45:12,989 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1071 ms
+[INFO] 2022-10-21 14:45:36,740 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:45:37,008 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 266 ms
+[INFO] 2022-10-21 14:45:37,083 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:45:38,137 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1054 ms
+[INFO] 2022-10-21 14:46:21,307 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:46:21,601 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 291 ms
+[INFO] 2022-10-21 14:46:21,701 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:46:22,913 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1212 ms
+[INFO] 2022-10-21 14:52:08,205 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:52:08,448 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 241 ms
+[INFO] 2022-10-21 14:52:08,525 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:52:09,637 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1112 ms
+[INFO] 2022-10-21 14:52:21,873 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:52:22,142 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 267 ms
+[INFO] 2022-10-21 14:52:22,228 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:52:23,296 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1068 ms
+[INFO] 2022-10-21 14:52:35,501 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:52:35,739 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 236 ms
+[INFO] 2022-10-21 14:52:35,812 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:52:36,919 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1107 ms
+[INFO] 2022-10-21 14:55:39,253 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:55:39,553 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 298 ms
+[INFO] 2022-10-21 14:55:39,640 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:55:40,803 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1163 ms
+[INFO] 2022-10-21 14:57:02,186 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:57:02,447 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 259 ms
+[INFO] 2022-10-21 14:57:02,524 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:57:03,613 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1089 ms
+[INFO] 2022-10-21 14:57:38,809 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:57:39,062 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 251 ms
+[INFO] 2022-10-21 14:57:39,137 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:57:40,267 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1130 ms
+[INFO] 2022-10-21 14:58:03,994 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 14:58:04,233 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 237 ms
+[INFO] 2022-10-21 14:58:04,307 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 14:58:05,382 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1075 ms
+[INFO] 2022-10-21 15:04:25,235 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:04:25,487 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 249 ms
+[INFO] 2022-10-21 15:04:25,576 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:04:26,648 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1072 ms
+[INFO] 2022-10-21 15:12:45,290 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:12:45,583 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 290 ms
+[INFO] 2022-10-21 15:12:45,664 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:12:46,833 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1168 ms
+[INFO] 2022-10-21 15:16:49,350 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:16:49,589 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 237 ms
+[INFO] 2022-10-21 15:16:49,726 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:16:50,785 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1059 ms
+[INFO] 2022-10-21 15:17:37,523 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:17:37,769 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 244 ms
+[INFO] 2022-10-21 15:17:37,846 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:17:38,930 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1084 ms
+[INFO] 2022-10-21 15:18:25,620 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:18:25,854 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 232 ms
+[INFO] 2022-10-21 15:18:25,928 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:18:27,056 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1128 ms
+[INFO] 2022-10-21 15:19:18,443 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 15:19:18,751 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 305 ms
+[INFO] 2022-10-21 15:19:18,837 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 15:19:20,011 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 1174 ms
+[INFO] 2022-10-21 16:00:31,409 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[WARN] 2022-10-21 16:00:31,886 org.mybatis.spring.mapper.ClassPathMapperScanner warn - No MyBatis mapper was found in '[com.mycom.mybatis.dao]' package. Please check your configuration.
+[WARN] 2022-10-21 16:00:32,204 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+[ERROR] 2022-10-21 16:00:32,211 org.springframework.web.context.ContextLoader initWebApplicationContext - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:876)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4768)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 45 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 47 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 51 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 53 more
+[INFO] 2022-10-21 16:02:49,284 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[WARN] 2022-10-21 16:02:50,130 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+[ERROR] 2022-10-21 16:02:50,134 org.springframework.web.context.ContextLoader initWebApplicationContext - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:876)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4768)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 45 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 47 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 51 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 53 more
+[INFO] 2022-10-21 16:04:05,741 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[WARN] 2022-10-21 16:04:06,582 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+[ERROR] 2022-10-21 16:04:06,586 org.springframework.web.context.ContextLoader initWebApplicationContext - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:876)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4768)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:612)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:490)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1792)
+	... 42 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\SSAFY\Documents\workspace-sts-3.9.14.RELEASE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringMVCAdvanced\WEB-INF\classes\mapper\student_query.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:610)
+	... 45 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 47 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.mycom.mydav.dao.StudentDao'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 51 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.mycom.mydav.dao.StudentDao
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 53 more
+[INFO] 2022-10-21 16:07:35,776 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:07:36,743 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 963 ms
+[INFO] 2022-10-21 16:07:36,780 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[WARN] 2022-10-21 16:07:37,668 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR] 2022-10-21 16:07:37,670 org.springframework.web.servlet.DispatcherServlet initServletBean - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1164)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1117)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1010)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4957)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1716)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 52 more
+[INFO] 2022-10-21 16:07:52,974 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[WARN] 2022-10-21 16:07:53,063 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR] 2022-10-21 16:07:53,064 org.springframework.web.servlet.DispatcherServlet initServletBean - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1164)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1117)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:788)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1716)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 39 more
+[INFO] 2022-10-21 16:07:54,057 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[WARN] 2022-10-21 16:07:54,143 org.springframework.web.context.support.XmlWebApplicationContext refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[ERROR] 2022-10-21 16:07:54,143 org.springframework.web.servlet.DispatcherServlet initServletBean - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'studentController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1164)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1117)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:788)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.mycom.myadv.service.StudentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1716)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1272)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1226)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 39 more
+[INFO] 2022-10-21 16:09:08,017 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:09:08,988 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 968 ms
+[INFO] 2022-10-21 16:09:09,025 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:09:09,949 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 924 ms
+[WARN] 2022-10-21 16:09:14,126 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/
+[WARN] 2022-10-21 16:09:14,744 org.springframework.web.servlet.PageNotFound noHandlerFound - No mapping for GET /myadv/
+[INFO] 2022-10-21 16:13:04,142 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:13:05,130 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 985 ms
+[INFO] 2022-10-21 16:13:05,168 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:13:06,092 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 924 ms
+[INFO] 2022-10-21 16:13:41,482 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:13:42,406 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 922 ms
+[INFO] 2022-10-21 16:13:42,441 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:13:43,314 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 872 ms
+[INFO] 2022-10-21 16:13:55,060 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:13:55,914 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 852 ms
+[INFO] 2022-10-21 16:13:55,947 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:13:56,801 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 853 ms
+[INFO] 2022-10-21 16:16:39,782 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:16:40,701 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 917 ms
+[INFO] 2022-10-21 16:16:40,740 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:16:41,587 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 847 ms
+[INFO] 2022-10-21 16:17:39,991 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:17:40,803 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 810 ms
+[INFO] 2022-10-21 16:17:40,835 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:17:41,665 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 830 ms
+[INFO] 2022-10-21 16:17:53,929 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:17:54,785 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 854 ms
+[INFO] 2022-10-21 16:17:54,825 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:17:55,724 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 899 ms
+[INFO] 2022-10-21 16:18:07,586 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:18:08,401 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 813 ms
+[INFO] 2022-10-21 16:18:08,434 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:18:09,288 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 854 ms
+[INFO] 2022-10-21 16:20:05,588 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:20:06,474 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 883 ms
+[INFO] 2022-10-21 16:20:06,506 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:20:07,331 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 825 ms
+[INFO] 2022-10-21 16:21:52,045 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:21:52,847 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 800 ms
+[INFO] 2022-10-21 16:21:52,881 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:21:53,726 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 845 ms
+[INFO] 2022-10-21 16:23:01,083 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:23:02,057 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 971 ms
+[INFO] 2022-10-21 16:23:02,094 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:23:02,994 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 900 ms
+[INFO] 2022-10-21 16:24:44,301 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:24:45,285 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 981 ms
+[INFO] 2022-10-21 16:24:45,323 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:24:46,260 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 937 ms
+[INFO] 2022-10-21 16:26:50,406 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:26:51,387 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 978 ms
+[INFO] 2022-10-21 16:26:51,423 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:26:52,348 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 925 ms
+[INFO] 2022-10-21 16:27:23,352 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:27:24,336 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 982 ms
+[INFO] 2022-10-21 16:27:24,373 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:27:25,287 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 913 ms
+[INFO] 2022-10-21 16:32:46,544 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:32:47,371 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 825 ms
+[INFO] 2022-10-21 16:32:47,405 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:32:48,280 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 875 ms
+[INFO] 2022-10-21 16:33:00,182 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:33:01,026 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 842 ms
+[INFO] 2022-10-21 16:33:01,059 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:33:02,025 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 966 ms
+[INFO] 2022-10-21 16:35:12,513 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:35:13,489 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 973 ms
+[INFO] 2022-10-21 16:35:13,526 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:35:14,429 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 903 ms
+[INFO] 2022-10-21 16:50:26,194 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 16:50:27,023 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 827 ms
+[INFO] 2022-10-21 16:50:27,056 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 16:50:27,919 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 862 ms
+[INFO] 2022-10-21 17:05:41,763 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:05:42,887 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1122 ms
+[INFO] 2022-10-21 17:05:42,921 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:05:43,773 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 851 ms
+[INFO] 2022-10-21 17:08:06,076 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:08:07,262 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1183 ms
+[INFO] 2022-10-21 17:08:07,299 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:08:08,161 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 862 ms
+[INFO] 2022-10-21 17:08:43,803 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:08:44,804 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 999 ms
+[INFO] 2022-10-21 17:08:44,837 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:08:45,660 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 822 ms
+[INFO] 2022-10-21 17:10:20,866 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:10:21,940 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1072 ms
+[INFO] 2022-10-21 17:10:21,972 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:10:22,780 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 808 ms
+[INFO] 2022-10-21 17:10:34,500 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:10:35,509 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1006 ms
+[INFO] 2022-10-21 17:10:35,542 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:10:36,332 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 790 ms
+[INFO] 2022-10-21 17:10:48,038 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:10:49,075 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1035 ms
+[INFO] 2022-10-21 17:10:49,110 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:10:49,940 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 830 ms
+[INFO] 2022-10-21 17:11:01,676 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext: initialization started
+[INFO] 2022-10-21 17:11:02,743 org.springframework.web.context.ContextLoader initWebApplicationContext - Root WebApplicationContext initialized in 1065 ms
+[INFO] 2022-10-21 17:11:02,776 org.springframework.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'appServlet'
+[INFO] 2022-10-21 17:11:03,570 org.springframework.web.servlet.DispatcherServlet initServletBean - Completed initialization in 794 ms

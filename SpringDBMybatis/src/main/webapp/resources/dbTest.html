@@ -5,15 +5,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> MyBatis Test (using JSON) </h1>
-	
+	<h1>MyBatis Test (using JSON)</h1>
+
 	<button id="btnEmpDetail">Emp 상세</button>
-	<button id="btnEmpList">Emp 목록</button>	
-	<br>	
+	<button id="btnEmpList">Emp 목록</button>
+	<br>
 	<button id="btnEmpInsert">Emp 등록</button>
 	<button id="btnEmpUpdate">Emp 수정</button>
 	<button id="btnEmpDelete">Emp 삭제</button>
-	
+	<hr>
+	<button id="btnEmpListParameterMap">Emp 목록 (ParameterMap)</button>
+	<button id="btnEmpListLike">Emp 목록 (Like)</button>
+
 	<script>
 		window.onload = function () {
 			document.querySelector("#btnEmpDetail").addEventListener("click", async function () {
@@ -118,6 +121,37 @@
 				}
 			});
 			
+			document.querySelector("#btnEmpListParameterMap").onclick=async function() {
+				let firstName="길동";
+				let lastName="홍";
+				let url='/mybatis/empListParameterMap2';
+				//let url='/mybatis/empListParameterMap3';
+				let urlParams=`?firstName=${firstName}&lastName=${lastName}`
+				
+				try {					
+					let response = await fetch(url+urlParams);
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			}
+			
+			document.querySelector("#btnEmpListLike").onclick=async function() {
+				let firstName="길동";
+				let url='/mybatis/empListLike';
+				let urlParams=`?firstName=${firstName}`;
+				
+				try {					
+					let response = await fetch(url+urlParams);
+					let data = await response.json();
+					console.log(data);		
+					
+				} catch (error){
+					console.log(error);
+				}
+			}
 		}
 	</script>
 </body>
