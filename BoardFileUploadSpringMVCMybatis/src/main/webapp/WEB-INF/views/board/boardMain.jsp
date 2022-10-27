@@ -125,7 +125,7 @@
                   </div>
                   <div class="mb-3" style="display: none;" id="imgFileUploadInsertWrapper">
                   	<input type="file" id="inputFileUploadInsert" multiple>
-                  	<div id="imgFileUploadInsertThumbnail" class="thunbnail-wrapper"></div>
+                  	<div id="imgFileUploadInsertThumbnail" class="thumbnail-wrapper"></div>
                   </div>
                   <button id="btnBoardInsert" type="button" class="btn btn-sm btn-primary float-end">등록</button>
             </div>            
@@ -187,7 +187,7 @@
                   </div>
                   <div class="mb-3" style="display: none;" id="imgFileUploadUpdateWrapper">
                   	<input type="file" id="inputFileUploadUpdate" multiple>
-                  	<div id="imgFileUploadUpdateThumbnail" class="thunbnail-wrapper"></div>
+                  	<div id="imgFileUploadUpdateThumbnail" class="thumbnail-wrapper"></div>
                   </div>
                   <button id="btnBoardUpdate" type="button" class="btn btn-sm btn-primary float-end">수정</button>
             </div>            

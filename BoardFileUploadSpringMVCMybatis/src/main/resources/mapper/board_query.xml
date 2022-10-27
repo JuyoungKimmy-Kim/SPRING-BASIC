@@ -24,16 +24,11 @@
     <select id="boardListSearchWord" parameterType="map"
         resultType="com.mycom.myboard.dto.BoardDto">
 
-        select b.board_id, b.user_seq, u.user_name,
-        u.user_profile_image_url,
-        b.title, b.content, b.reg_dt, b.read_count
+        select b.board_id, b.user_seq, u.user_name, u.user_profile_image_url, b.title, b.content, b.reg_dt, b.read_count
         from BOARD b, USERS u
-        where
-        b.user_seq = u.user_seq
-        and b.title like
-        concat('%',#{searchWord},'%')
-        order by b.board_id
-        desc
+        where b.user_seq = u.user_seq
+        and b.title like concat('%',#{searchWord},'%')
+        order by b.board_id desc
         limit #{limit}
         offset #{offset} ;
 
@@ -64,8 +59,12 @@
 		where board_id = #{boardId}
 	</update>
 	
+<!-- 	<delete id="boardDelete" parameterType="int"> -->
+<!-- 		delete from board where board_id = #{boardId} -->
+<!-- 	</delete> -->
+
 	<delete id="boardDelete" parameterType="int">
-		delete from board where board_id = #{boardId}
+		delete from board_file 
 	</delete>
 	
 	<insert id="boardInsert"

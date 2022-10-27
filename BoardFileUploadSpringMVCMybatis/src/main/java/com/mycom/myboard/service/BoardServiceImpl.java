@@ -12,6 +12,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import com.mycom.myboard.dao.BoardDao;
 import com.mycom.myboard.dto.BoardDto;
+import com.mycom.myboard.dto.BoardFileDto;
 import com.mycom.myboard.dto.BoardParamDto;
 import com.mycom.myboard.dto.BoardResultDto;
 
@@ -156,12 +157,12 @@ public class BoardServiceImpl implements BoardService {
 			//System.out.println("generated key : " + dto.getBoardId());
 			
 			
-			File uploadDir=new File(uploadPath + File.separatorChar + uploadFolder); // 업로드 파일이 저장될 폴더 (디렉토리)
+			File uploadDir=new File(uploadPath + File.separator + uploadFolder); // 업로드 파일이 저장될 폴더 (디렉토리)
 			if (!uploadDir.exists()) uploadDir.mkdir(); // 없으면 새로 생성
 			
 			List<MultipartFile> fileList=request.getFiles("file");
 			for (MultipartFile partFile : fileList) {
-				int boardId=dto.getBoardId();
+				int boardId=dto.getBoardId();	// 이전 등록된 게시글의 key
 				String fileName=partFile.getOriginalFilename(); 	// 이 이름으로는 바로 저장하지 않고, UUID를 이용해서 중복 불가한 파일 이름을 만듦
 				
 				// Random UUID File id
@@ -172,17 +173,22 @@ public class BoardServiceImpl implements BoardService {
 				// 실제 저장할 파일 전체 이름
 				String savingFileName = uuid+"."+extension;
 				
-				File destFile=new File (uploadPath + File.separatorChar + uploadFolder + File.separatorChar + savingFileName);
+				File destFile=new File (uploadPath + File.separator + uploadFolder + File.separator + savingFileName);
 				
 				// 파일 객체를 통해서 파일을 저장
 				partFile.transferTo(destFile);
+				
+				//테이블이 첨부파일 정보 저장
+				BoardFileDto boardFileDto=new BoardFileDto();
+				boardFileDto.setBoardId(boardId);
+				boardFileDto.setFileName(fileName);
+				boardFileDto.setFileSize(partFile.getSize());
+				boardFileDto.setFileContentType(partFile.getContentType());
+				boardFileDto.setFileUrl(uploadFolder + "/" + savingFileName);
+				
+				dao.boardFileInsert(boardFileDto);
 			}
-			
-			if (ret == 1) {
-				boardResultDto.setResult(SUCCESS);
-			} else {
-				boardResultDto.setResult(FAIL);
-			}
+			boardResultDto.setResult(SUCCESS);
 			
 		} catch(Exception e) {
 			e.printStackTrace();
