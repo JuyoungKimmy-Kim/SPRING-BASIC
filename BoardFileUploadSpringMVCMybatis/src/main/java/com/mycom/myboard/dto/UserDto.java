@@ -1,15 +1,15 @@
 package com.mycom.myboard.dto;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class UserDto {
+	
 	private int userSeq;
 	private String userName;
 	private String userPassword;
 	private String userEmail;
 	private String userProfileImageUrl;
 	private Date userRegisterDate;
-	
 	
 	public int getUserSeq() {
 		return userSeq;
@@ -39,10 +39,11 @@ public class UserDto {
 		return userProfileImageUrl;
 	}
 	public void setUserProfileImageUrl(String userProfileImageUrl) {
-		if (userProfileImageUrl==null || "null".equals(userProfileImageUrl) ||
-				"".equals(userProfileImageUrl)) {
-			this.userProfileImageUrl="/img/noProfile.png";
-		} else this.userProfileImageUrl = userProfileImageUrl;
+		if (userProfileImageUrl == null || "null".equals(userProfileImageUrl) || "".equals(userProfileImageUrl)) {
+			this.userProfileImageUrl = "/img/noProfile.png";
+		} else {
+			this.userProfileImageUrl = userProfileImageUrl;			
+		}
 	}
 	public Date getUserRegisterDate() {
 		return userRegisterDate;
@@ -57,6 +58,5 @@ public class UserDto {
 				+ ", userEmail=" + userEmail + ", userProfileImageUrl=" + userProfileImageUrl + ", userRegisterDate="
 				+ userRegisterDate + "]";
 	}
-	
 	
 }

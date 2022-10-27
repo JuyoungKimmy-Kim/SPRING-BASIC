@@ -13,22 +13,23 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class LogAspect {
-	private final Logger logger=LoggerFactory.getLogger(this.getClass());
+
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
 	
-	@Pointcut(value="execution( * com.mycom.myboard..*(..) )")
-	private void logPointcut () {
+	@Pointcut(value="execution(* com.mycom.myboard..*(..) )")
+	private void logPointcut() {
 		
 	}
 	
 	@Before("logPointcut()")
 	public void beforeLog(JoinPoint joinPoint) {
 		Signature signature = joinPoint.getSignature();
-		logger.debug("[Logger : Before] 메소드 이름 : "+signature.getName());
+		logger.debug("[Logger : Before] 메소드 이름 : " + signature.getName());
 	}
 	
 	@After("logPointcut()")
 	public void afterLog(JoinPoint joinPoint) {
 		Signature signature = joinPoint.getSignature();
-		logger.info("[Logger : After] 메소드 이름 : "+signature.getName());
+		logger.info("[Logger : Before] 메소드 이름 : " + signature.getName());
 	}
 }

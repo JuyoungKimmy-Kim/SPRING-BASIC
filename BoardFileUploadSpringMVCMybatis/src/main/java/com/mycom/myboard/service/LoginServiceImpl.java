@@ -7,21 +7,21 @@ import com.mycom.myboard.dao.LoginDao;
 import com.mycom.myboard.dto.UserDto;
 
 @Service
-public class LoginServiceImpl implements LoginService{
-
+public class LoginServiceImpl implements LoginService {
+	
 	@Autowired
 	LoginDao loginDao;
-	
+
 	@Override
 	public UserDto login(UserDto dto) {
-		//dto : client가 전송한 것
-		//userDto : db에서 가져온 것
-		
-		UserDto userDto=loginDao.login(dto.getUserEmail());
-		if (userDto!=null && userDto.getUserPassword().equals(dto.getUserPassword())) {
+		UserDto userDto = loginDao.login(dto.getUserEmail());
+		// userDto 는 테이블에서 조회한 데이터가 포함
+		// dto 는 client 가 전송한 데이터가 포함
+		if (userDto != null && userDto.getUserPassword().equals(dto.getUserPassword())) {
 			return userDto;
-		} 
+		}
+		
 		return null;
 	}
-
+	
 }

@@ -13,24 +13,22 @@ import com.mycom.myboard.dto.UserDto;
 import com.mycom.myboard.dto.UserResultDto;
 import com.mycom.myboard.service.UserService;
 
-// json으로 response --> rest controller
-
+// json response
 @RestController
 public class UserController {
 	
 	@Autowired
 	UserService userService;
 	
-	private final int SUCCESS=1;
+	private final int SUCCESS = 1;
 	
-	
-	// HttpStatus Code로 처리 결과를 Wrapping 하기 위해 ResponseEntity를 사용
-	@PostMapping (value="/register")
-	public ResponseEntity<Map <String, String>> register(UserDto dto) {
-		UserResultDto userResultDto=userService.userRegister(dto);
-		Map<String, String> map=new HashMap<>();
+	// HttpStatus Code 로 처리 결과를 Wrapping 하기 위해 ResponseEntity 를 사용
+	@PostMapping("/register")
+	public ResponseEntity<Map<String, String>> register(UserDto dto) {
+		UserResultDto userResultDto = userService.userRegister(dto);
 		
-		if (userResultDto.getResult()==SUCCESS) {
+		Map<String, String> map = new HashMap<>();
+		if (userResultDto.getResult() == SUCCESS) {
 			map.put("result", "success");
 			return new ResponseEntity<Map<String, String>>(map, HttpStatus.OK);
 		} else {

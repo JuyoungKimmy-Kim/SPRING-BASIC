@@ -29,7 +29,7 @@
 <body>
   <div class="container">
     <div class="mb-3 mt-3 d-flex justify-content-center">
-      <h1>🐷 주영 세상🌱</h1>
+      <h1>삐따기 세상</h1>
     </div>
     <div class="mb-3">
       <h2>Login</h2>

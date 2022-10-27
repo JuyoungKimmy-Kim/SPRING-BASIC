@@ -21,16 +21,22 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.mycom.myboard.controller, com.mycom.myboard.common,com.mycom.myboard.config" />
+	<context:component-scan base-package="com.mycom.myboard.controller, com.mycom.myboard.common, com.mycom.myboard.config" />
 	
-	<!-- 여러 개의 interceptor 를 지정 -->
-	<!-- 어느 interceptor에 어떤 url mapping을 적용 -->
-	<interceptors>
+<!-- multipart request 처리를 위해 필요 -->
+<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <beans:property name="maxUploadSize" value="10485760" />
+</beans:bean>
+	
+	
+		<interceptors>
+<!-- 		여러 개의 interceptor 를 지정 -->
+<!-- 		어느 interceptor 에 어떤 url mapping 을 적용 -->
 		<interceptor>
-			<mapping path="/**"></mapping> 
- 			<exclude-mapping path="/login/**" /> 
- 			<exclude-mapping path="/register/**" /> 
-  			<exclude-mapping path="/resources/**" />  
+			<mapping path="/**"></mapping> <!-- 모든 url 에 적용 -->
+			<exclude-mapping path="/login/**"/>
+			<exclude-mapping path="/register/**"/>
+			<exclude-mapping path="/resources/**"/>
 			<beans:ref bean="loginInterceptor"></beans:ref>
 		</interceptor>
 	</interceptors>

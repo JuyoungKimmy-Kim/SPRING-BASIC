@@ -6,5 +6,5 @@ import com.mycom.myboard.dto.UserDto;
 
 @Mapper
 public interface UserDao {
-	int userRegister (UserDto userDto);
+	int userRegister(UserDto userDto);
 }

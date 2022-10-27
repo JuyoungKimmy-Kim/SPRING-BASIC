@@ -1,15 +1,15 @@
 package com.mycom.myboard.dto;
 
 public class BoardParamDto {
-	// Spring에서 자동으로 Parameter 처리를 해주는 기능을 활용하기 위해
-	// request.getParameter (”limit”)과 같은 코드를 생략하도록 별도의 dto를 만듦
+	// Spring 에서 자동으로 파라미터 처리를 해주는 기능을 활용하기 위해
+	// request.getParameter("limit") 와 같은 코드를 생략하도록 별도의 dto를 만든다.
 	
 	// 게시글 목록
 	private int limit;
 	private int offset;
 	private String searchWord;
 	
-	//게시글 상세
+	// 게시글 상세
 	private int boardId;
 	private int userSeq;
 	
@@ -44,6 +44,10 @@ public class BoardParamDto {
 		this.userSeq = userSeq;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "BoardParamDto [limit=" + limit + ", offset=" + offset + ", searchWord=" + searchWord + ", boardId="
+				+ boardId + ", userSeq=" + userSeq + "]";
+	}
 	
 }
