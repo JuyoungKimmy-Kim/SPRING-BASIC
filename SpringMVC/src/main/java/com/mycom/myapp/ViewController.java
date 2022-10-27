@@ -15,9 +15,7 @@ public class ViewController {
 
 		return "viewTest1";
 
-		/*
-		 * jsp 제외하고 보내면 됨 servelt-context-xml에 있는 prefix, suffix에 의해
-		 */
+		 // jsp 제외하고 보내면 됨 servelt-context-xml에 있는 prefix, suffix에 의해
 	}
 
 	@GetMapping(value = "/viewTest2")
@@ -52,6 +50,7 @@ public class ViewController {
 	}
 	
 	//위의 과정은 forward의 내용
+	
 	//redirect
 	@GetMapping("/redirect")
 	public String redirect () {

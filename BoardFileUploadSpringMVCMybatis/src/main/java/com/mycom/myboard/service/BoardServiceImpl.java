@@ -1,9 +1,13 @@
 package com.mycom.myboard.service;
 
+import java.io.File;
 import java.util.List;
+import java.util.UUID;
 
+import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import com.mycom.myboard.dao.BoardDao;
@@ -21,6 +25,14 @@ public class BoardServiceImpl implements BoardService {
 
 	private final int SUCCESS = 1;
 	private final int FAIL = -1;
+	
+	// C:\Users\SSAFY\Documents\SPRING-BASIC\BoardFileUploadSpringMVCMybatis\src\main\webapp\resources\static
+	private final String uploadPath="C:"+File.separator+
+			"Users"+File.separator+"SSAFY"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
+			+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
+			+File.separator+"resources"+File.separator+"static";
+	
+	private final String uploadFolder="upload";
 	
 	@Override
 	public BoardResultDto boardList(BoardParamDto boardParamDto) {
@@ -140,8 +152,32 @@ public class BoardServiceImpl implements BoardService {
 		
 		try {
 			int ret = dao.boardInsert(dto);
-			System.out.println(dto);
-			System.out.println("generated key : " + dto.getBoardId());
+			//System.out.println(dto);
+			//System.out.println("generated key : " + dto.getBoardId());
+			
+			
+			File uploadDir=new File(uploadPath + File.separatorChar + uploadFolder); // 업로드 파일이 저장될 폴더 (디렉토리)
+			if (!uploadDir.exists()) uploadDir.mkdir(); // 없으면 새로 생성
+			
+			List<MultipartFile> fileList=request.getFiles("file");
+			for (MultipartFile partFile : fileList) {
+				int boardId=dto.getBoardId();
+				String fileName=partFile.getOriginalFilename(); 	// 이 이름으로는 바로 저장하지 않고, UUID를 이용해서 중복 불가한 파일 이름을 만듦
+				
+				// Random UUID File id
+				UUID uuid=UUID.randomUUID(); //대체할 파일 이름
+				
+				String extension=FilenameUtils.getExtension(fileName); 	//파일 확장자만 추출
+				
+				// 실제 저장할 파일 전체 이름
+				String savingFileName = uuid+"."+extension;
+				
+				File destFile=new File (uploadPath + File.separatorChar + uploadFolder + File.separatorChar + savingFileName);
+				
+				// 파일 객체를 통해서 파일을 저장
+				partFile.transferTo(destFile);
+			}
+			
 			if (ret == 1) {
 				boardResultDto.setResult(SUCCESS);
 			} else {

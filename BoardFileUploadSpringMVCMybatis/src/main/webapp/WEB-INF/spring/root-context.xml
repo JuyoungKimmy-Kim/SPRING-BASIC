@@ -34,6 +34,7 @@
 	<mybatis-spring:scan base-package="com.mycom.myboard.dao" annotation="org.apache.ibatis.annotations.Mapper"/>
 	
 	<!-- root-context.xml 에서 설정/확인된 @Transactional 데이터를 servlet-context.xml 에서 다시 scan 해서 잃어버리지 않도록 패키지를 분리 -->
+	
 	<context:component-scan base-package="com.mycom.myboard.service, com.mycom.myboard.dao" />
 	<context:component-scan base-package="com.mycom.myboard.aspect" />
 	
