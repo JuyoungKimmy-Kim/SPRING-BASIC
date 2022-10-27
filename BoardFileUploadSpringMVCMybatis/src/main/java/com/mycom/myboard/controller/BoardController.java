@@ -78,6 +78,19 @@ public class BoardController {
 			return new ResponseEntity<BoardResultDto>(boardResultDto, HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
+//	
+//	@DeleteMapping("/boards/{boardId}")
+//	private ResponseEntity<BoardResultDto> boardDelete(@PathVariable int boardId) {
+//		
+//		BoardResultDto boardResultDto = service.boardDelete(boardId);
+//		
+//		if (boardResultDto.getResult() == SUCCESS) {
+//			return new ResponseEntity<BoardResultDto>(boardResultDto, HttpStatus.OK);
+//		} else {
+//			return new ResponseEntity<BoardResultDto>(boardResultDto, HttpStatus.INTERNAL_SERVER_ERROR);
+//		}
+//	}
+	
 	
 	@DeleteMapping("/boards/{boardId}")
 	private ResponseEntity<BoardResultDto> boardDelete(@PathVariable int boardId) {

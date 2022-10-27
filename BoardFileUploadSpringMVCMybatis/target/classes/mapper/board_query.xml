@@ -71,6 +71,10 @@
 	<delete id="boardDelete" parameterType="int">
 		delete from board where board_id = #{boardId}
 	</delete>
+	
+	<select id="boardFileUrlDeleteList" parameterType="int" resultType="string">
+		select file_url from board_file where board_id= #{boardId}
+	</select>
 
 	
 	
