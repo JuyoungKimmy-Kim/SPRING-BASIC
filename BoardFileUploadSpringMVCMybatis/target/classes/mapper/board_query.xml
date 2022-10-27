@@ -59,13 +59,20 @@
 		where board_id = #{boardId}
 	</update>
 	
-<!-- 	<delete id="boardDelete" parameterType="int"> -->
-<!-- 		delete from board where board_id = #{boardId} -->
-<!-- 	</delete> -->
-
-	<delete id="boardDelete" parameterType="int">
-		delete from board_file 
+	<delete id="boardFileDelete" parameterType="int">
+		delete from board_file where board_id=#{boardId}
 	</delete>
+	
+	<delete id="boardReadCountDelete" parameterType="int">
+		delete from board_user_read where board_id=#{boardId}
+	</delete>
+	
+	
+	<delete id="boardDelete" parameterType="int">
+		delete from board where board_id = #{boardId}
+	</delete>
+
+	
 	
 	<insert id="boardInsert"
         parameterType="com.mycom.myboard.dto.BoardDto" useGeneratedKeys="true" keyProperty="boardId">

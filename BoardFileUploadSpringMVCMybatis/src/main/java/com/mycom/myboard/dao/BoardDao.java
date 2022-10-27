@@ -29,6 +29,10 @@ public interface BoardDao {
 	
 	// 삭제
 	int boardDelete(int boardId);
+	int boardFileDelete(int boardId);
+	int boardReadCountDelete(int boardId);
+	
+	List<String> boardFileUrlDeleteList(int bordId);
 	
 	// 등록
 	int boardInsert(BoardDto dto);				// 게시글 등록

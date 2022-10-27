@@ -28,10 +28,17 @@ public class BoardServiceImpl implements BoardService {
 	private final int FAIL = -1;
 	
 	// C:\Users\SSAFY\Documents\SPRING-BASIC\BoardFileUploadSpringMVCMybatis\src\main\webapp\resources\static
+//	private final String uploadPath="C:"+File.separator+
+//			"Users"+File.separator+"SSAFY"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
+//			+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
+//			+File.separator+"resources"+File.separator+"static";
+	
+	//C:\Users\kimmy\OneDrive\문서\SPRING-BASIC\BoardFileUploadSpringMVCMybatis\src\main\webapp\resources\static
 	private final String uploadPath="C:"+File.separator+
-			"Users"+File.separator+"SSAFY"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
-			+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
-			+File.separator+"resources"+File.separator+"static";
+	"Users"+File.separator+"kimmy"+File.separator+"OneDrive"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
+	+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
+	+File.separator+"resources"+File.separator+"static";
+	
 	
 	private final String uploadFolder="upload";
 	
@@ -123,23 +130,33 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public BoardResultDto boardDelete(int boardId) {
-		BoardResultDto boardResultDto = new BoardResultDto();
-		
-		try {
-			// DB 에서 게시글 정보를 가져온다.
-			int ret = dao.boardDelete(boardId); // 삭제 되는 건수
-			if (ret == 1) {
-				boardResultDto.setResult(SUCCESS);
-			} else {
-				boardResultDto.setResult(FAIL);
-			}
-			
-		} catch(Exception e) {
-			e.printStackTrace();
-			boardResultDto.setResult(FAIL);
-		}
-		
-		return boardResultDto;
+	    
+	    BoardResultDto boardResultDto = new BoardResultDto();
+	    
+	    try {
+	        List<String> fileUrlList = dao.boardFileUrlDeleteList(boardId);
+	        for(String fileUrl : fileUrlList) {
+	            File file = new File(uploadPath + File.separator, fileUrl);                
+	            if(file.exists()) {
+	                file.delete();
+	            }
+	        }
+	        
+	        // 삭제 순서
+	        dao.boardFileDelete(boardId);
+	        dao.boardReadCountDelete(boardId);
+	        dao.boardDelete(boardId);        
+	        boardResultDto.setResult(SUCCESS);
+	        
+	    }catch(Exception e) {
+	        e.printStackTrace();
+	        boardResultDto.setResult(FAIL);
+	        // 파일업로드 등이 실패할 경우 IOException 이 발생하는데, IOException 을 throw 할 경우 Rollback 되지 않는다.
+	        // UncheckedException 발생
+	        throw new RuntimeException();            
+	    }
+	    
+	    return boardResultDto;
 	}
 
 	@Override
