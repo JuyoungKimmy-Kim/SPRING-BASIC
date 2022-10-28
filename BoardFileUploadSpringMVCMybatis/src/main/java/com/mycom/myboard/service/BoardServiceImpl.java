@@ -28,16 +28,16 @@ public class BoardServiceImpl implements BoardService {
 	private final int FAIL = -1;
 	
 	// C:\Users\SSAFY\Documents\SPRING-BASIC\BoardFileUploadSpringMVCMybatis\src\main\webapp\resources\static
-//	private final String uploadPath="C:"+File.separator+
-//			"Users"+File.separator+"SSAFY"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
-//			+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
-//			+File.separator+"resources"+File.separator+"static";
+	private final String uploadPath="C:"+File.separator+
+			"Users"+File.separator+"SSAFY"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
+			+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
+			+File.separator+"resources"+File.separator+"static";
 	
 	//C:\Users\kimmy\OneDrive\문서\SPRING-BASIC\BoardFileUploadSpringMVCMybatis\src\main\webapp\resources\static
-	private final String uploadPath="C:"+File.separator+
-	"Users"+File.separator+"kimmy"+File.separator+"OneDrive"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
-	+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
-	+File.separator+"resources"+File.separator+"static";
+//	private final String uploadPath="C:"+File.separator+
+//	"Users"+File.separator+"kimmy"+File.separator+"OneDrive"+File.separator+"Documents"+File.separator+"SPRING-BASIC"+File.separator
+//	+"BoardFileUploadSpringMVCMybatis"+File.separator+"src"+File.separator+"main"+File.separator+"webapp"
+//	+File.separator+"resources"+File.separator+"static";
 	
 	
 	private final String uploadFolder="upload";
